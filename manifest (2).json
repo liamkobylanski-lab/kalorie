@@ -1,0 +1,44 @@
+{
+  "name": "LIAM KOBYLANSKI - Fuel Log",
+  "short_name": "Fuel Log",
+  "description": "Nutrition tracking with calorie and macro calculator for ATPL training",
+  "start_url": "/kalorie/",
+  "scope": "/kalorie/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B0F14",
+  "theme_color": "#5CB3FF",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%235CB3FF' width='192' height='192'/><text x='50%' y='50%' font-size='80' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='central' font-family='system-ui'>F</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%235CB3FF' width='180' height='180'/><text x='50%' y='50%' font-size='70' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='central' font-family='system-ui'>F</text></svg>",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["health", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230B0F14' width='540' height='720'/><text x='50%' y='100' font-size='48' font-weight='bold' fill='%235CB3FF' text-anchor='middle' font-family='system-ui'>Fuel Log</text><text x='50%' y='200' font-size='32' fill='%23E9EEF5' text-anchor='middle' font-family='system-ui'>Track calories & macros</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "share_target": {
+    "action": "/kalorie/",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
